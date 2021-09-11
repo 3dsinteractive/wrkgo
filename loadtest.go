@@ -8,9 +8,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/HdrHistogram/hdrhistogram-go"
 	"github.com/briandowns/spinner"
 	humanize "github.com/dustin/go-humanize"
-	"github.com/glentiki/hdrhistogram"
 	"github.com/olekukonko/tablewriter"
 	"github.com/ttacon/chalk"
 	"github.com/valyala/fasthttp"
